@@ -1,0 +1,32 @@
+global_vars:
+  - name: "clipboard"
+    type: "clipboard"
+
+matches:
+
+  - trigger: ",sgdh"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n"
+
+  - trigger: ",sgf"
+    replace: "Sehr geehrte Frau {{clipboard}},\n\n\n"
+
+  - trigger: ",sgh"
+    replace: "Sehr geehrter Herr {{clipboard}},\n\n\n"
+
+  - trigger: ",sgt"
+    replace: "Sehr geehrtes {{clipboard}}-Team,\n\n\n"
+
+  - trigger: ",gm"
+    replace: "Guten Morgen,\n\n\n"
+
+  - trigger: "!mm"
+    replace: "Moin, Moin!\n\n\n"
+
+  - trigger: "!dgg"
+    replace: "\n\nDanke sehr, viele Grüße & alles Gute!"
+
+  - trigger: "!gg"
+    replace: "\n\nViele Grüße & alles Gute!"
+
+  - trigger: "!ds"
+    replace: "\n\nDanke sehr!"

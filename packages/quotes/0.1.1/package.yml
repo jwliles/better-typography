@@ -1,0 +1,139 @@
+matches:
+  # horizontal bar
+  - trigger: ":---"
+    replace: "―"
+  # em dash
+  - trigger: ":--."
+    replace: "—"
+  # en dash
+  - trigger: ":-."
+    replace: "–"
+  # left-pointing double angle quotation mark
+  - trigger: ":\"<"
+    replace: "«"
+  # right-pointing double angle quotation mark
+  - trigger: ":\">"
+    replace: "»"
+  # left single quotation mark
+  - trigger: ":''"
+    replace: "‘"
+  # right single quotation mark
+  - trigger: ":',"
+    replace: "’"
+  # single low-9 quotation mark
+  - trigger: ":'_,"
+    replace: "‚"
+  # single high-reversed-9 quotation mark
+  - trigger: ":'`"
+    replace: "‛"
+  # left double quotation mark
+  - trigger: ":\"'"
+    replace: "“"
+  # right double quotation mark
+  - trigger: ":\","
+    replace: "”"
+  # double low-9 quotation mark
+  - trigger: ":\"_,"
+    replace: "„"
+  # double high-reversed-9 quotation mark
+  - trigger: ":\"`"
+    replace: "‟"
+  # single left-pointing angle quotation mark
+  - trigger: ":'<"
+    replace: "‹"
+  # single right-pointing angle quotation mark
+  - trigger: ":'>"
+    replace: "›"
+  # double low-reversed-9 quotation mark
+  - trigger: ":\"_`"
+    replace: "⹂"
+  # top left corner
+  - trigger: ":^["
+    replace: "⌜"
+  # top right corner
+  - trigger: ":^]"
+    replace: "⌝"
+  # heavy single turned comma quotation mark ornament
+  - trigger: ":'*'"
+    replace: "❛"
+  # heavy single comma quotation mark ornament
+  - trigger: ":'*,"
+    replace: "❜"
+  # heavy double turned comma quotation mark ornament
+  - trigger: ":\"*'"
+    replace: "❝"
+  # heavy double comma quotation mark ornament
+  - trigger: ":\"*,"
+    replace: "❞"
+  # sans-serif heavy double turned comma quotation mark ornament
+  - trigger: ":\"!'"
+    replace: "🙶"
+  # sans-serif heavy double comma quotation mark ornament
+  - trigger: ":\"!,"
+    replace: "🙷"
+  # sans-serif heavy low double comma quotation mark ornament
+  - trigger: ":\"!_,"
+    replace: "🙸"
+  # braille pattern dots-236
+  - trigger: ":.:"
+    replace: "⠴"
+  # braille pattern dots-356
+  - trigger: "::."
+    replace: "⠦"
+  # left corner bracket
+  - trigger: ":'["
+    replace: "「"
+  # right corner bracket
+  - trigger: ":']"
+    replace: "」"
+  # left white corner bracket
+  - trigger: ":\"["
+    replace: "『"
+  # right white corner bracket
+  - trigger: ":\"]"
+    replace: "』"
+  # reversed double prime quotation mark
+  - trigger: ":``"
+    replace: "〝"
+  # double prime quotation mark
+  - trigger: ":`,"
+    replace: "〞"
+  # low double prime quotation mark
+  - trigger: ":`_`"
+    replace: "〟"
+  # presentation form for vertical left corner bracket
+  - trigger: ":'^["
+    replace: "﹁"
+  # presentation form for vertical right corner bracke
+  - trigger: ":'^]"
+    replace: "﹂"
+  # presentation form for vertical left white corner bracket
+  - trigger: ":\"^["
+    replace: "﹃"
+  # presentation form for vertical right white corner bracket
+  - trigger: ":\"^]"
+    replace: "﹄"
+  # fullwidth quotation mark
+  - trigger: ":\"\""
+    replace: "＂"
+  # fullwidth apostrophe
+  - trigger: ":'\""
+    replace: "＇"
+  # halfwidth left corner bracket
+  - trigger: ":'_["
+    replace: "｢"
+  # halfwidth right corner bracket
+  - trigger: ":'_]"
+    replace: "｣ "
+  # left double angle brackets korean
+  - trigger: ":\"+<"
+    replace: "《"
+  # right double angle brackets korean
+  - trigger: ":\"+>"
+    replace: "》"
+  # left single angle brackets korean
+  - trigger: ":'+<"
+    replace: "〈"
+  # right single angle brackets korean
+  - trigger: ":'+>"
+    replace: "〉"
